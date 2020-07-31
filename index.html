@@ -1,1 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #f3e5f5;
+        }
+        .header-container {
+            background-image: url("background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            z-index: 0;
+        }
+
+        .gray-overlay {
+            width: 100%;
+            height: 100%;
+            padding-top: 90px;
+            padding-bottom: 150px;
+            background-color: rgba(128, 128, 128, 0.6);
+        }
+
+        .cta-button {
+            background-color: #7b1fa2;
+            color: white;
+            padding: 15px 45px;
+            font-size: 22px;
+            font-weight: 500;
+            border: none;
+        }
+
+        .cta-button:hover {
+            background-color: #4a148c;
+        }
+
+        .content-container {
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            padding-bottom: 90px;
+        }
+
+        .slate {
+            position:relative;
+            z-index: 1;
+            content: "";
+            background-color: #f3e5f5;
+            height: 100px;
+            transform: skewY(-3deg);
+            margin-top: -85px;
+        }
+        @media only screen and (min-width: 768px) {
+            .slate {
+                height: 150px;
+            }
+        }
+
+        .profession-holder{
+            margin-top: -42px;
+            position: relative;
+            z-index: 3;
+            text-align: center;
+        }
+        .profession-header{
+            font-size: 18px;
+        }
+
+        .profession-name {
+            font-size: 22px;
+            font-weight: 500;
+            max-width: 700px;
+            padding: 6px 12px;
+            margin: 24px auto;
+        }
+        @media only screen and (min-width: 768px) {
+            .profession-name {
+                font-size: 30px;
+            }
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+            padding: 12px;
+        }
+    </style>
+    <title>Генератор на ню ейдж</title>
+</head>
+<body>
+<div class="header-container">
+    <div class="gray-overlay">
+        <div class="content-container">
+            <h1>Октрий своята ню ейдж професия</h1>
+            <div class="btn btn-primary cta-button">
+                Покажи
+            </div>
+        </div>
+    </div>
+</div>
+<div class="slate">
+</div>
+
+<div class="profession-holder">
+    <div class="profession-header">ВАШАТА ПРОФЕСИЯ Е:</div>
+    <div class="profession-name"></div>
+</div>
+
+<div class="footer">
+    Created by БСРГ
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script>
+    var first = [
+        'сертифициран',
+        'професионален',
+        'лицензиран',
+        'холистичен',
+        'мотивационен',
+        'персонален',
+    ];
+    var second = [
+        'фацилитатор',
+        'лайф коуч',
+        'коуч',
+        'доставчик на асесмънти',
+        'терапевт',
+        'лидерски акселератор',
+        'гуру',
+        'консултант',
+        'инструктор',
+        'модератор',
+        'мениджър',
+        'лектор',
+    ];
+    var third = [
+        'геометрия на успеха',
+        'хармонизация',
+        'мнемонични техники',
+        'възпитателни умения',
+        'освобождаващи практики',
+        'биорезонансова диагностика',
+        'акупунктура',
+        'рефлексология',
+        'ирисология',
+        'натуропатия',
+        'ароматерапия',
+        'енергийно лечение',
+        'хармонизиране',
+        'вътрешно премоделиране',
+        'вътрешна алхимия',
+        'енергийно извисяване',
+        'биорезонансен анализ',
+        'метатерапия',
+        'семейни констелации',
+        'екосистемни констелации',
+        'архетипни констелации',
+        'междуличностни констелации',
+        'духовно-трансперсонални констелации',
+        'интегрални изцелителни констелации',
+        'астрология',
+        'Акашови записи',
+        'кабала',
+        'рейки',
+        'подбор на асесмънт',
+        'тиймбилдинги',
+        'емоционална интелигентност',
+        'Ошо медитации',
+        'психология',
+        'веганство',
+        'звукова йога',
+        'клинична хомеопатия',
+    ];
+    var fourth = [
+        'метода на Мориц Егетмайер \"ОХ карти\"',
+        'Хюман Дизайн',
+        'майндфулнес',
+        'системата на Хинду-брамин чакра',
+        'квантова физика',
+        'кабала',
+        'метода на Екман',
+        'триангулация на Пробива',
+        'висока вибрация',
+        'ниска вибрация',
+        'средна вибрация',
+        'Ведическа нумерология',
+        'Джйотиш',
+        'асертивна комуникация',
+    ];
+
+    function generateRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+    };
+
+    function getTwoRandomInts(max){
+        var i1=0, i2=0;
+        while(i1 === i2){
+            i1 = generateRandomInt(max);
+            i2 = generateRandomInt(max);
+        }
+        return [i1, i2];
+    }
+
+    $( document ).ready(function() {
+        $( ".cta-button" ).click(function() {
+            var string = '';
+            string += first[generateRandomInt(first.length)];
+            string += ' ' + second[generateRandomInt(second.length)];
+
+            var arr = getTwoRandomInts(third.length);
+
+            string += ' по ' + third[arr[0] - 1];
+            string += ' и ' + third[arr[1] - 1];
+
+            string += ' базирани на ' + fourth[generateRandomInt(fourth.length)];
+            $( ".profession-name" ).html(string);
+        });
+    });
+</script>
+</body>
+</html>
