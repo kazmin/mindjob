@@ -1,2 +1,2 @@
-# profession_generator
-A generator for made up professions
+# Generate a made up pofession
+Just click the button
